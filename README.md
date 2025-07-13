@@ -41,4 +41,4 @@ This program identifies the position of a point (x, y) in a 2D Cartesian coordin
     At Origin: x = 0 and y = 0.
 ->The program prints the appropriate message indicating the point’s position.
 
-Conclusion: Hence, we used Logical Operators in the above 3 codes and execute the decision-making statements to get an accurate output.
+Conclusion: Hence, we used Logical Operators and Relational Operators in the above 3 codes and executed the decision-making statements to get an accurate output.
