@@ -117,3 +117,25 @@ int main(){
     
     return 0;
 }
+
+
+/*==========OUTPUTS==========
+-->Program-1:
+Enter a Number:2
+Number is POSITIVE.
+Enter a Number:-2
+Number is NEGATIVE.
+
+-->Program-2:
+Enter marks for DCLD:90
+Enter marks for NT:91
+Enter marks for EDC:92
+Enter marks for SnS:93
+Enter marks for MTT:94
+Average is:92
+O Grade.
+
+-->Program-3:
+Enter X-Coordinate:2
+Enter Y-Coordinate:3
+1st Quadrant.*/
