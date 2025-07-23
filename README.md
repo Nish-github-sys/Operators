@@ -1,10 +1,22 @@
-# Exp-3
+# OPERATORS IN C++
 Aim: To study and implement Operators in C++.
 
-Apparatus: VS Code or Programiz online compiler
+Tools Used: VS Code or Programiz online compiler
 
-Theory: 
--->Program-1:
+# Theory
+Operators in C++ are special symbols or keywords that perform operations on data and evaluate expressions. They are categorized based on their functionality, including arithmetic, relational, logical, and other types of operations.
+
+# Arithmetic Operators
+These operators perform mathematical calculations between two or more numeric values. The fundamental arithmetic operators include addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). They are essential for various computational tasks, from simple calculations to complex algorithms in fields like finance, scientific computing, and game development.
+
+# Relational Operators
+Relational operators compare two values or expressions, returning a boolean result (true or false) based on their relationship. Common relational operators include less than (<), greater than (>), equal to (==), not equal to (!=), less than or equal to (<=), and greater than or equal to (>=). These operators are crucial for controlling program flow in conditional statements (if, while, for) and for making decisions based on value comparisons.
+
+# Logical Operators
+Logical operators work with boolean values to combine or modify conditions. The primary logical operators are AND (&&), OR (||), and NOT (!). They enable complex condition evaluation by combining multiple relational expressions or inverting boolean results. These operators are particularly useful for implementing decision-making logic where multiple conditions must be satisfied simultaneously or alternatively.
+
+
+# Program-1: To check if a number is Positive, Negative or Zero
 This program accepts an integer from the user and checks whether it is positive, negative, or zero using conditional statements.
 
 ->The user is prompted to enter a number.
@@ -12,8 +24,17 @@ This program accepts an integer from the user and checks whether it is positive,
     If the number is greater than 0, it prints "Number is POSITIVE."
     If the number is less than 0, it prints "Number is NEGATIVE."
     If the number is equal to 0, it prints "Number is ZERO."
+    
+->Algorithm:
 
--->Program-2:
+1. Start
+2. Input number num
+3. If num > 0, print "Positive"
+4. Else if num < 0, print "Negative"
+5. Else, print "Zero"
+6. End
+
+# Program-2: To calculate average marks and display the Grade
 This program accepts marks for five subjects, calculates the average, and assigns a grade based on the average score.
 
 ->The program takes input for five subjects: DCLD, NT, EDC, SnS, and MTT.
@@ -27,7 +48,20 @@ This program accepts marks for five subjects, calculates the average, and assign
     FAIL: Below 50
 ->If the calculated average is outside 0–100, it displays an error message to enter valid marks.
 
--->Program-3:
+Algorithm:
+
+1. Start.
+2. Input marks for 5 subjects.
+3. Calculate average = total / 5.
+4. If average < 0 or > 100 → print "Invalid input"
+5. Else if average > 90 → print "O Grade"
+6. Else if average ≥ 81 → print "A+ Grade"
+7. Else if average ≥ 71 → print "A Grade"
+8. Else if average ≥ 61 → print "B Grade"
+9. Else if average ≥ 51 → print "C Grade"
+10. Else → print "Fail"
+
+# Program-3: Co-ordinate Quadrant
 This program identifies the position of a point (x, y) in a 2D Cartesian coordinate system based on its x and y coordinates.
 
 ->The program takes two integer inputs: x-coordinate and y-coordinate.
@@ -41,4 +75,18 @@ This program identifies the position of a point (x, y) in a 2D Cartesian coordin
     At Origin: x = 0 and y = 0.
 ->The program prints the appropriate message indicating the point’s position.
 
-Conclusion: Hence, we used Logical Operators and Relational Operators in the above 3 codes and executed the decision-making statements to get an accurate output.
+Algorithm:
+
+1. Start.
+2. Input x and y.
+3. If x > 0 and y > 0 → print "1st Quadrant"
+4. Else if x < 0 and y > 0 → print "2nd Quadrant"
+5. Else if x < 0 and y < 0 → print "3rd Quadrant"
+6. Else if x > 0 and y < 0 → print "4th Quadrant"
+7. Else if x == 0 and y != 0 → print "Y-axis"
+8. Else if y == 0 and x != 0 → print "X-axis"
+9. Else → print "Origin"
+10. End.
+
+# Conclusion 
+Hence, we used Logical Operators and Relational Operators in the above 3 codes and executed the decision-making statements to get an accurate output.
